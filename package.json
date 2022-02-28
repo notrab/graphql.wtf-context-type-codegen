@@ -1,0 +1,27 @@
+{
+  "name": "graphql.wtf-context-type-codegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev server.ts",
+    "start": "ts-node server.ts",
+    "codegen": "graphql-codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.6.2",
+    "@graphql-codegen/typescript": "2.4.5",
+    "@graphql-codegen/typescript-operations": "2.3.2",
+    "@graphql-codegen/typescript-resolvers": "2.5.2",
+    "ts-node": "10.5.0",
+    "ts-node-dev": "1.1.8",
+    "typescript": "4.5.5"
+  },
+  "dependencies": {
+    "@graphql-yoga/node": "0.1.0-beta.3",
+    "graphql": "15.8.0"
+  }
+}
